@@ -38,16 +38,3 @@ print(favourite_musicians1)
 
 favourite_musicians1.count(6)
 print(favourite_musicians1)
-
-
-
-
-
-
-
-
-
-
-
-
-
