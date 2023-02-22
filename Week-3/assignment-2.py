@@ -21,10 +21,10 @@ a="coefficient of the first term"
 b="coefficient of the second term"
 c="constant"
 
-ans1= -b(second_coefficient) + cmath.sqrt((second_coefficient**2)-(4*first_coefficient*constant))/(2*first_coefficient)
-ans2= -b(second_coefficient) - cmath.sqrt((second_coefficient**2)-(4*first_coefficient*constant))/(2*first_coefficient)
+s1= -b(second_coefficient) + cmath.sqrt(math.pow(b,2)-(4*first_coefficient*constant)/(2*first_coefficient))
+s2= -b(second_coefficient) - cmath.sqrt((math.pow(b,2)-(4*first_coefficient*constant))/(2*first_coefficient))
 
-print("The answers are"+str(ans1)+"and"+str(ans2))
+print("The answers are"+str(s1)+"and"+str(s2))
 
 #using a for loop to draw a diamond
 R=int(input("Enter the range:"))
