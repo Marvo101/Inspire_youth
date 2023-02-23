@@ -12,17 +12,20 @@
 #programme soloving quandratic equation
  
 import cmath
+import math
+cmath.sqrt
+math.pow(b,2)
 
-first_coefficient=int(input("Enter the first coefficient:"))
-second_coefficient=int(input("Enter the second coefficient:"))
-constant=int(input ("enter the constant:"))
+a=int(input("Enter the first coefficient:"))
+b=2
+c=int(input ("enter the constant:"))
 
 a="coefficient of the first term"
 b="coefficient of the second term"
 c="constant"
 
-s1= -b(second_coefficient) + cmath.sqrt(math.pow(b,2)-(4*first_coefficient*constant)/(2*first_coefficient))
-s2= -b(second_coefficient) - cmath.sqrt((math.pow(b,2)-(4*first_coefficient*constant))/(2*first_coefficient))
+s1= -b + (cmath.sqrt (math.pow(b,2)-4*a*c)/2*a)
+s2= -b - (cmath.sqrt(math.pow(b,2)-4*a*c)/2*a)
 
 print("The answers are"+str(s1)+"and"+str(s2))
 
